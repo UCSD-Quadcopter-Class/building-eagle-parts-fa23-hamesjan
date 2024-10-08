@@ -139,8 +139,8 @@
 </package>
 <package name="LSM6DS0">
 <rectangle x1="-0.925" y1="-0.6625" x2="0.925" y2="0.6625" layer="41"/>
-<rectangle x1="-0.925" y1="-0.6625" x2="0.925" y2="0.6625" layer="42"/>
-<rectangle x1="-0.925" y1="-0.6625" x2="0.925" y2="0.6625" layer="43"/>
+<rectangle x1="-1.5" y1="-1.25" x2="1.5" y2="1.25" layer="42"/>
+<rectangle x1="-1.5" y1="-1.25" x2="1.5" y2="1.25" layer="43"/>
 <circle x="-1.25" y="1" radius="0.05" width="0.1" layer="21"/>
 <smd name="INT1" x="-1.1625" y="-0.75" dx="0.575" dy="0.35" layer="1"/>
 <smd name="SCX" x="-1.1625" y="-0.25" dx="0.575" dy="0.35" layer="1"/>
@@ -150,12 +150,12 @@
 <smd name="OCS_AUX" x="1.1625" y="0.25" dx="0.575" dy="0.35" layer="1"/>
 <smd name="INT2" x="1.1625" y="-0.25" dx="0.575" dy="0.35" layer="1"/>
 <smd name="VDD" x="1.1625" y="-0.75" dx="0.575" dy="0.35" layer="1"/>
-<smd name="CS" x="0.5" y="0.9" dx="0.35" dy="0.575" layer="1"/>
-<smd name="SCL" x="0" y="0.9" dx="0.35" dy="0.575" layer="1"/>
-<smd name="SDA" x="-0.5" y="0.9" dx="0.35" dy="0.575" layer="1"/>
-<smd name="VDDIO" x="-0.5" y="-0.9" dx="0.35" dy="0.575" layer="1"/>
-<smd name="GND1" x="0" y="-0.9" dx="0.35" dy="0.575" layer="1"/>
-<smd name="GND2" x="0.5" y="-0.9" dx="0.35" dy="0.575" layer="1"/>
+<smd name="CS" x="0.5" y="0.9625" dx="0.35" dy="0.575" layer="1"/>
+<smd name="SCL" x="0" y="0.9625" dx="0.35" dy="0.575" layer="1"/>
+<smd name="SDA" x="-0.5" y="0.9625" dx="0.35" dy="0.575" layer="1"/>
+<smd name="VDDIO" x="-0.5" y="-0.9625" dx="0.35" dy="0.575" layer="1"/>
+<smd name="GND1" x="0" y="-0.9625" dx="0.35" dy="0.575" layer="1"/>
+<smd name="GND2" x="0.5" y="-0.9625" dx="0.35" dy="0.575" layer="1"/>
 <text x="-2" y="2.9" size="0.9" layer="25" font="vector">&gt;Name</text>
 <wire x1="-2.4" y1="1.9" x2="-2.4" y2="-1.9" width="0.05" layer="39"/>
 <wire x1="-2.4" y1="-1.9" x2="2.4" y2="-1.9" width="0.05" layer="39"/>
