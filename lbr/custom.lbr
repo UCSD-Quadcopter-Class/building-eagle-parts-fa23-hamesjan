@@ -140,7 +140,7 @@
 <rectangle x1="-0.925" y1="-0.6625" x2="0.925" y2="0.6625" layer="41"/>
 <rectangle x1="-1.5" y1="-1.25" x2="1.5" y2="1.25" layer="42"/>
 <rectangle x1="-1.5" y1="-1.25" x2="1.5" y2="1.25" layer="43"/>
-<circle x="-1.25" y="1" radius="0.05" width="0.1" layer="21"/>
+<circle x="-1.8" y="1.2" radius="0.05" width="0.1" layer="21"/>
 <smd name="INT1" x="-1.1625" y="-0.75" dx="0.575" dy="0.35" layer="1"/>
 <smd name="SCX" x="-1.1625" y="-0.25" dx="0.575" dy="0.35" layer="1"/>
 <smd name="SDX" x="-1.1625" y="0.25" dx="0.575" dy="0.35" layer="1"/>
@@ -243,7 +243,7 @@
 <wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-12.7" x2="12.7" y2="15.24" width="0.254" layer="94"/>
 <wire x1="12.7" y1="15.24" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
-<circle x="-10.16" y="10.16" radius="1.1268875" width="0.254" layer="97"/>
+<circle x="-10.16" y="7.62" radius="0.772678125" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
