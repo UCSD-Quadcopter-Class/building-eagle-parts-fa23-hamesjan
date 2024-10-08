@@ -110,7 +110,7 @@
 <wire x1="2.4" y1="1.4" x2="-2.4" y2="1.4" width="0.05" layer="39"/>
 <text x="-2.2" y="-3.1" size="0.9" layer="27" font="vector">&gt;VALUE</text>
 </package>
-<package name="MOFSET">
+<package name="MOSFET">
 <description>3-SOT23, 0.95 mm pitch, 2.37 mm span, 2.92 X 1.30 X 1.12 mm body
  &lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.37 mm span with body size 2.92 X 1.30 X 1.12 mm&lt;/p&gt;</description>
 <smd name="G" x="-1.0266" y="0.95" dx="1.2991" dy="0.6" layer="1"/>
@@ -188,7 +188,7 @@
 <wire x1="5.08" y1="5.08" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
 <wire x1="3.81" y1="3.81" x2="3.10264375" y2="3.10264375" width="0.1524" layer="94"/>
 <text x="-7.62" y="2.54" size="1.778" layer="95" font="vector">&gt;Name</text>
-<text x="-5.08" y="-7.62" size="1.778" layer="96" font="vector">&gt;VALUE
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;Value
 </text>
 </symbol>
 <symbol name="MOSFET">
@@ -288,7 +288,7 @@
 <gate name="G$1" symbol="MOSFET" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="MOFSET">
+<device name="" package="MOSFET">
 <connects>
 <connect gate="G$1" pin="D" pad="D"/>
 <connect gate="G$1" pin="G" pad="G"/>
