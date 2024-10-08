@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -126,10 +126,10 @@
 <wire x1="0.7" y1="1.52" x2="0.7" y2="-1.52" width="0.12" layer="51"/>
 <wire x1="0.7" y1="-1.52" x2="-0.7" y2="-1.52" width="0.12" layer="51"/>
 <text x="0" y="2.5" size="0.9" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<wire x1="-2.5" y1="2.5" x2="-2.5" y2="-2" width="0.05" layer="39"/>
-<wire x1="-2.5" y1="-2" x2="2.5" y2="-2" width="0.05" layer="39"/>
-<wire x1="2.5" y1="-2" x2="2.5" y2="2.5" width="0.05" layer="39"/>
-<wire x1="2.5" y1="2.5" x2="-2.5" y2="2.5" width="0.05" layer="39"/>
+<wire x1="-2.4" y1="2.4" x2="-2.4" y2="-1.9" width="0.05" layer="39"/>
+<wire x1="-2.4" y1="-1.9" x2="2.4" y2="-1.9" width="0.05" layer="39"/>
+<wire x1="2.4" y1="-1.9" x2="2.4" y2="2.4" width="0.05" layer="39"/>
+<wire x1="2.4" y1="2.4" x2="-2.4" y2="2.4" width="0.05" layer="39"/>
 </package>
 <package name="LSM6DS0">
 <rectangle x1="-1.5" y1="-1.25" x2="1.5" y2="1.25" layer="41"/>
